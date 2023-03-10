@@ -1,0 +1,38 @@
+.cardWrapper{
+ width: 450px;
+ height: 200px;
+background-color: aliceblue;
+color:darkblue;
+overflow: hidden;
+box-shadow: 4px -1px 14px -1px rgba(0,0,0,0.46);
+-webkit-box-shadow: 4px -1px 14px -1px rgba(0,0,0,0.46);
+-moz-box-shadow: 4px -1px 14px -1px rgba(0,0,0,0.46);
+cursor: pointer;
+border-radius: 5px;
+
+/* Grow */
+
+
+span{
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+}
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.5s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.05);
+}
